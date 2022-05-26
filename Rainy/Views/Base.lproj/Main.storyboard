@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Rainy" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="background" translatesAutoresizingMaskIntoConstraints="NO" id="OFa-J2-R9U">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="896" id="cJF-wN-JvQ"/>
+                                    <constraint firstAttribute="width" constant="414" id="dw1-jA-1nI"/>
+                                </constraints>
+                            </imageView>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="spV-I3-RHY">
+                                <rect key="frame" x="102" y="131" width="210" height="241"/>
+                                <subviews>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="cloud.rain.fill" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="59f-Tg-cNJ">
+                                        <rect key="frame" x="0.0" y="0.0" width="210" height="151.5"/>
+                                        <color key="tintColor" red="0.034004539956293198" green="0.5022151661713895" blue="0.59215688710000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="150" id="a2H-Mm-6ri"/>
+                                        </constraints>
+                                    </imageView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="fhX-da-913">
+                                        <rect key="frame" x="0.0" y="150" width="210" height="91"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bpo-LW-DkJ">
+                                                <rect key="frame" x="0.0" y="0.0" width="210" height="70"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="70" id="nD8-cQ-GNi"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" name="MarkerFelt-Thin" family="Marker Felt" pointSize="50"/>
+                                                <color key="textColor" red="0.1764705926" green="0.40000003579999999" blue="0.47450977560000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0j1-KD-oMh">
+                                                <rect key="frame" x="0.0" y="70" width="210" height="21"/>
+                                                <fontDescription key="fontDescription" name="MarkerFelt-Thin" family="Marker Felt" pointSize="25"/>
+                                                <color key="textColor" red="0.1764705926" green="0.40000003579999999" blue="0.47450977560000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="91" id="Dgq-fy-lHr"/>
+                                            <constraint firstAttribute="width" constant="210" id="ITN-IZ-13V"/>
+                                        </constraints>
+                                    </stackView>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="210" id="T8H-qc-7Kr"/>
+                                    <constraint firstAttribute="height" constant="241" id="ZuB-ee-OF1"/>
+                                </constraints>
+                            </stackView>
+                            <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="hhG-fR-7QH">
+                                <rect key="frame" x="223" y="790" width="171" height="86"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hlb-WT-9Fe">
+                                        <rect key="frame" x="0.0" y="0.0" width="131" height="86"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="131" id="ilV-VM-qZ6"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="MarkerFelt-Thin" family="Marker Felt" pointSize="30"/>
+                                        <color key="textColor" red="0.1764705926" green="0.40000003579999999" blue="0.47450977560000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rUl-OP-Bug">
+                                        <rect key="frame" x="131" y="0.0" width="40" height="86"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="40" id="43O-sL-bYh"/>
+                                        </constraints>
+                                        <color key="tintColor" red="0.1764705926" green="0.40000003579999999" blue="0.47450977560000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="plain" image="magnifyingglass.circle.fill" catalog="system">
+                                            <preferredSymbolConfiguration key="preferredSymbolConfigurationForImage" configurationType="pointSize" pointSize="21"/>
+                                        </buttonConfiguration>
+                                        <connections>
+                                            <action selector="searchPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="2c8-Cx-01D"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="86" id="JQ9-KT-NaI"/>
+                                    <constraint firstAttribute="width" constant="171" id="tva-TR-ueV"/>
+                                </constraints>
+                            </stackView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="spV-I3-RHY" secondAttribute="bottom" constant="490" id="FSX-5P-qxv"/>
+                            <constraint firstItem="OFa-J2-R9U" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="Jp9-qr-9D9"/>
+                            <constraint firstItem="OFa-J2-R9U" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="Kfc-5i-Zj5"/>
+                            <constraint firstItem="OFa-J2-R9U" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="MSn-VR-Drl"/>
+                            <constraint firstAttribute="bottom" secondItem="OFa-J2-R9U" secondAttribute="bottom" id="Ull-Ka-MPT"/>
+                            <constraint firstItem="spV-I3-RHY" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="102" id="XfU-gb-IFW"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="spV-I3-RHY" secondAttribute="trailing" constant="102" id="Y4w-VP-A4m"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="hhG-fR-7QH" secondAttribute="trailing" constant="20" id="Zfh-AC-sTz"/>
+                            <constraint firstAttribute="bottom" secondItem="hhG-fR-7QH" secondAttribute="bottom" constant="20" id="jl8-2x-AN0"/>
+                            <constraint firstItem="spV-I3-RHY" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="87" id="o9F-W0-wiV"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="cityLabel" destination="hlb-WT-9Fe" id="75u-cz-n8M"/>
+                        <outlet property="feelsLikeTemperatureLabel" destination="0j1-KD-oMh" id="yRD-Ds-1KY"/>
+                        <outlet property="temperatureLabel" destination="bpo-LW-DkJ" id="19G-bx-z0g"/>
+                        <outlet property="weatherIconImageView" destination="59f-Tg-cNJ" id="YDg-0Q-HLF"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="34.782608695652179" y="97.767857142857139"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="background" width="1240.5" height="1754"/>
+        <image name="cloud.rain.fill" catalog="system" width="125" height="128"/>
+        <image name="magnifyingglass.circle.fill" catalog="system" width="128" height="121"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
